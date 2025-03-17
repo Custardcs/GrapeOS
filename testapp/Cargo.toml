@@ -1,8 +1,0 @@
-[package]
-name = "simple_button"
-version = "0.1.1"
-
-# This empty workspace declaration tells Cargo to treat this as a standalone project
-[workspace]
-
-[dependencies]
