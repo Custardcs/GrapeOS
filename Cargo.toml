@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "uefi_bootloader",
+    "kernel"
+]
+resolver = "2"
+
+# You can keep this if you need it for dependencies between workspace members
+[workspace.dependencies]
