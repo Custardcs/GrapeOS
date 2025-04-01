@@ -1,8 +1,0 @@
-[package]
-name = "GrapeOS"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]
-log = "0.4.26"
-uefi = { version = "0.34.1", features = ["logger", "panic_handler"] }

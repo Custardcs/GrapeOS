@@ -1,0 +1,14 @@
+[package]
+name = "GrapeBoot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+log = "0.4.26"
+uefi = { version = "0.34.1", features = ["logger", "panic_handler"] }
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
